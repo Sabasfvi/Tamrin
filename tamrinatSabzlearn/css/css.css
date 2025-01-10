@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: Arial;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header{
+    background-color: #b069fa;
+    display: flex;
+    justify-content: center;    /*وسط چین افقی*/
+    text-align: center;        /*وسط چین عمودی*/
+    padding: 20px 0;           /*20 بالا و پایین- 0 چپ و راست*/
+
+}
+header p{
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+nav{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;    /*فاصله انداختن بین عکس ها*/
+    padding: 20px 20px;                /*20 بالا و پایین- 20 چپ و راست*/
+
+}
+a img{
+    width: 70px;
+    height: 70px;
+
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+a p{
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a p:hover{
+   color: #b069fa;
+}
+
+
+
+main #UpComing{
+    background-color: #d9dffd;
+    padding:40px ;
+    text-align: center;
+    justify-content: center;
+}
+
+#UpComing img{
+width: 700px;
+}
+
+caption{
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#UpComingTable{
+    background-color: #d9dffd;
+     padding: 40px;
+    justify-items: center;
+
+}
+table{
+    width: 100%;
+    height: auto;
+}
+
+table,th,td {
+    border: solid 2px #000000;
+
+}
+th{
+    background-color: #b069fa;
+    font-size: large;
+}
+th,td{
+    width:40px;
+    height:40px;
+    text-align: center;
+    padding: 20px;
+}
+table del{
+    text-decoration-color: #a60303;:
+}
+
+main #FashionText{
+    background-color: rgba(255, 255, 255, 0.66);
+    padding: 20px ;
+    color: #6d6b71;
+}
+main #FashionText p{
+    padding-top: 20px;
+    font-size: smaller;
+}
+main #FashionText h3{
+    padding: 20px 0 0 0;
+}
+main #FashionText ul{
+    padding: 10px 0 10px 10px;
+    list-style-type: disc;
+
+}
+footer{
+    background-color: #b069fa;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
