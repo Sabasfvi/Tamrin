@@ -30,17 +30,6 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
 
 header{
     background-color: #b069fa;
@@ -57,7 +46,6 @@ header p{
     letter-spacing: 2px;
 }
 nav{
-
     background-color: white;
     display: flex;
     justify-content: space-between;    /*فاصله انداختن بین عکس ها*/
@@ -65,6 +53,7 @@ nav{
 
 }
 a img{
+
     width: 70px;
     height: 70px;
 

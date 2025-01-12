@@ -4,8 +4,8 @@ let NumericFirstNumber = +FirstNumber;
 let NumericSecondNumber = +SecondNumber;
 let plusNumber=NumericFirstNumber+NumericSecondNumber;
 alert(plusNumber);
-alert(NumericFirstNumber-NumericSecondNumber);
-alert(NumericFirstNumber*NumericSecondNumber)
-alert(NumericFirstNumber**NumericSecondNumber)
-alert(NumericFirstNumber/NumericSecondNumber)
-alert(NumericFirstNumber%NumericSecondNumber)
+// alert(NumericFirstNumber-NumericSecondNumber);
+// alert(NumericFirstNumber*NumericSecondNumber)
+// alert(NumericFirstNumber**NumericSecondNumber)
+// alert(NumericFirstNumber/NumericSecondNumber)
+// alert(NumericFirstNumber%NumericSecondNumber)
