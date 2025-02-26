@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/onblurLogin.css">
+</head>
+<body>
+<!--  file 109-->
+
+
+<div class="login-container">
+    <div class="form">
+        <label for="username"></label><input type="text" placeholder="username" id="username"  onblur="usernameCheker()" />
+        <span id="username-checker"></span>
+        <label for="password"></label> <input type="password" placeholder="password" id="password"  onblur="passwordCheker()"/>
+        <span id="password-checker"></span>
+        <button id="btn-login" >LOGIN</button>
+        <p class="message">Not registered?
+            <a href="#" >Creat an account.</a>
+        </p>
+    </div>
+
+    <div class="modal">
+        ! لطفا اطلاعات لازم را به درستی وارد کنید
+    </div>
+
+
+
+</div>
+<script src="../js/onblurLogin.js"></script>
+
+</body>
+</html>
