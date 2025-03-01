@@ -1,0 +1,92 @@
+body{
+    background-image: url("../src/photo/travel.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family:"Arial", sans-serif;
+
+}
+
+.glassy-container{
+    position: relative;
+    width: 75%;
+    height:60%;
+    background-color: rgba(255, 255, 255, 0.19);
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(1px);
+    display: flex;
+    /*justify-content: start;*/
+    border-radius: 10px;
+}
+
+.button-submit{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5%;
+
+}
+
+button{
+    border: none;
+    width: 110px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gold;
+    font-weight: bold;
+
+
+}
+.left-forms{
+    /*background-color: #b069fa;*/
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-forms{
+    /*background-color: #008000;*/
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+input{
+
+    margin: 10px;
+    width:50%;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+.section-countries{
+    margin-top:10px ;
+    width: 53%;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.54);
+}
+
+input:focus{
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.54);
+}
+
+
