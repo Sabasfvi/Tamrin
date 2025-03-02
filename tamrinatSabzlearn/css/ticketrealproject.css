@@ -65,18 +65,26 @@ button{
 input{
 
     margin: 10px;
-    width:50%;
+    min-width:50%;
     padding: 8px;
     border: none;
     outline: none;
 }
 
-.section-countries{
+.select-countries{
     margin-top:10px ;
-    width: 53%;
+    min-width: 53%;
     padding: 8px;
     border: none;
     outline: none;
+}
+.select-cities{
+    margin-top:10px ;
+    min-width: 53%;
+    padding: 8px;
+    border: none;
+    outline: none;
+
 }
 
 
@@ -90,3 +98,12 @@ input:focus{
 }
 
 
+@media only screen and (max-width: 750px) {
+    .glassy-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+}
