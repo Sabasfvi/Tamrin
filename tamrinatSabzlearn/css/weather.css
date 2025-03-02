@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background-image: url("../src/photo/w5.jpg");*/
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+
+}
+
+#container{
+    width: 500px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.58);
+    backdrop-filter: blur(1px);
+
+
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.input-search {
+    padding: 8px;
+    width: 80%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(142, 138, 138, 0.32);
+    backdrop-filter: blur(20px);
+
+}
+
+.input-search::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.input-search:focus{
+    font-color: white;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.68), 0 6px 20px 0 rgba(0, 0, 0, 0.54);
+}
+
+.button-submit:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.68), 0 6px 20px 0 rgba(0, 0, 0, 0.54);
+    cursor: pointer;
+}
+
+
+.button-submit{
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: rgba(142, 138, 138, 0.32);
+    backdrop-filter: blur(20px);
+    color: white;
+    margin-left: 4px;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
