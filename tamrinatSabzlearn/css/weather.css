@@ -47,8 +47,8 @@ body{
 }
 
 .input-search:focus{
-    font-color: white;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.68), 0 6px 20px 0 rgba(0, 0, 0, 0.54);
+
 }
 
 .button-submit:hover{
@@ -79,3 +79,60 @@ body{
 
 
 
+#rain{
+    /*display: none;*/
+    margin-left:8% ;
+}
+#info-container{
+    background-color: #0d1835;
+    display: none;
+    /*display: flex;*/
+    flex-direction: column;
+    align-items: center;
+}
+#temper{
+   font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    display: flex;
+
+
+}
+#weatherContainer{
+    background-color: rgb(166, 3, 3);
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    margin-left: 8%;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    width: 100%;
+}
+#sunyorwhat{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+#lightrainysvg{
+    display: none;
+}
+#cloudysunsvg{
+    display: none;
+}
+#rainysvg{
+    display: none;
+}
+#sunnysvg{
+    display: none;
+}
+
+#svgphoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
