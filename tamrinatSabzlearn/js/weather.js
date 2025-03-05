@@ -59,35 +59,28 @@ button.addEventListener('click',function(){
           let sunyOrWhat=document.getElementById('sunyorwhat')
           sunyOrWhat.innerHTML=city.sun;
 
-          
-          let lightrainysvg=document.getElementById('lightrainysvg');
-          let cloudysunsvg=document.getElementById('cloudysunsvg');
-          let rainysvg=document.getElementById('rainysvg');
-          let sunnysvg=document.getElementById('sunnysvg');
-          if(city.sun==='Sunny'){
-              sunnysvg.style.display='flex'
-          }else if(city.sun==='Cloudy'){
-              cloudysunsvg.style.display='flex'
-          }else if(city.sun==='Rainy'){
-              rainysvg.style.display='flex'
-          }else {
-              lightrainysvg.style.display='flex'
-
-          }
+          let PrecipitationText=document.getElementById('PrecipitationText');
+          PrecipitationText.innerHTML='Precipitation:'
+          PrecipitationText.innerHTML+="  "+city.Precipitation;
 
 
-          // container.append(cityTemp)
-          // cityTemp.innerHTML=city.temp;
-          // cityTemp.style.fontSize='3rem'
-          // cityTemp.style.fontWeight='bold'
-          // cityTemp.style.marginLeft='8%'
-          // cityTemp.style.color='white'
+          let WindText=document.getElementById('WindText');
+          WindText.innerHTML='Wind:'
+          WindText.innerHTML+="    "+city.wind
+
+          let Humidity=document.getElementById('Humidity');
+          Humidity.innerHTML='Humidity:'
+          Humidity.innerHTML+="    "+city.Humidity
+
+
+
+
 
 
 
 
       }else{
-          //code
+      ///code
       }
     })
 })
