@@ -80,7 +80,12 @@ button.addEventListener('click',function(){
 
 
       }else{
-      ///code
+        alert('نام شهر را به درستی وارد کنید')
+
       }
     })
 })
+
+
+
+
