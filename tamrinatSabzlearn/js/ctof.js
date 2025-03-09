@@ -54,4 +54,5 @@ convertElm.addEventListener('click',function(converting){
 
 resetElm.addEventListener('click',function(){
     resulElm.innerHTML=''
+    inputElm.value=''
 })
