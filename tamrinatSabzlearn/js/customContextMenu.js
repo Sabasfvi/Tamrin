@@ -5,6 +5,7 @@ document.body.addEventListener("click",clickHandler)
 document.body.addEventListener("contextmenu",contextHandler)
 
 function contextHandler(event) {
+   
    mainDivOfMenu.style.top=event.pageY+"px"
    mainDivOfMenu.style.left=event.pageX+"px"
    mainDivOfMenu.style.display='block'
